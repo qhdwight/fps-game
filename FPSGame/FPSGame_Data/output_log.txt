@@ -2,9 +2,9 @@ Mono path[0] = 'F:/GitHubRepositories/fps-game/FPSGame/FPSGame_Data/Managed'
 Mono path[1] = 'F:/GitHubRepositories/fps-game/FPSGame/FPSGame_Data/Mono'
 Mono config path = 'F:/GitHubRepositories/fps-game/FPSGame/FPSGame_Data/Mono/etc'
 PlayerConnection initialized from F:/GitHubRepositories/fps-game/FPSGame/FPSGame_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55481
-Multi-casting "[IP] 10.0.0.10 [Port] 55481 [Flags] 2 [Guid] 4021160627 [EditorId] 1559161808 [Version] 1048832 [Id] WindowsPlayer(Quintin-PC) [Debug] 0" to [225.0.0.222:54997]...
-PlayerConnection already initialized - listening to [10.0.0.10:55481]
+PlayerConnection initialized network socket : 0.0.0.0 55062
+Multi-casting "[IP] 10.0.0.10 [Port] 55062 [Flags] 2 [Guid] 1907083583 [EditorId] 1269546859 [Version] 1048832 [Id] WindowsPlayer(Quintin-PC) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [10.0.0.10:55062]
 Initialize engine version: 5.4.0f3 (a6d8d714de6f)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -23,9 +23,14 @@ Platform assembly: F:\GitHubRepositories\fps-game\FPSGame\FPSGame_Data\Managed\U
 Loading F:\GitHubRepositories\fps-game\FPSGame\FPSGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: F:\GitHubRepositories\fps-game\FPSGame\FPSGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading F:\GitHubRepositories\fps-game\FPSGame\FPSGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.188 seconds
+- Completed reload, in  0.181 seconds
 Platform assembly: F:\GitHubRepositories\fps-game\FPSGame\FPSGame_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: F:\GitHubRepositories\fps-game\FPSGame\FPSGame_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 144Hz; virtual: 3840x1080 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 10.484223 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2ebc8 -> priority: 1 
+  Thread -> id: 2ebcc -> priority: 1 
