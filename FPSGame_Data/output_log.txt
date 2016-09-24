@@ -1,0 +1,69 @@
+Mono path[0] = 'F:/GitHubRepositories/fps-game/FPSGame_Data/Managed'
+Mono path[1] = 'F:/GitHubRepositories/fps-game/FPSGame_Data/Mono'
+Mono config path = 'F:/GitHubRepositories/fps-game/FPSGame_Data/Mono/etc'
+PlayerConnection initialized from F:/GitHubRepositories/fps-game/FPSGame_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55332
+Multi-casting "[IP] 10.0.0.10 [Port] 55332 [Flags] 2 [Guid] 1667030997 [EditorId] 3391163716 [Version] 1048832 [Id] WindowsPlayer(Quintin-PC) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [10.0.0.10:55332]
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 780 Ti (ID=0x100a)
+    Vendor:   NVIDIA
+    VRAM:     3038 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.194 seconds
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 144Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+DirectoryNotFoundException: Directory 'maps' not found.
+  at System.IO.Directory.GetFileSystemEntries (System.String path, System.String searchPattern, FileAttributes mask, FileAttributes attrs) [0x00166] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/Directory.cs:528 
+  at System.IO.Directory.GetDirectories (System.String path, System.String searchPattern) [0x00000] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/Directory.cs:275 
+  at System.IO.Directory.GetDirectories (System.String path) [0x00000] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/Directory.cs:270 
+  at MultiplayerScript..ctor () [0x00000] in <filename unknown>:0 
+ 
+(Filename: /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/Directory.cs Line: 528)
+
+UnloadTime: 1.314622 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 37968 -> priority: 1 
+  Thread -> id: 37960 -> priority: 1 
+Quitting...
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+EscapeMenuScript:OnApplicationQuit() (at C:\Users\Quintin\Dropbox\Unity Games\FPSGame\Assets\FPS Game\Scripts\UI\EscapeMenuScript.cs:149)
+ 
+(Filename: C:/Users/Quintin/Dropbox/Unity Games/FPSGame/Assets/FPS Game/Scripts/UI/EscapeMenuScript.cs Line: 149)
+
+DirectoryNotFoundException: Directory 'maps' not found.
+  at System.IO.Directory.GetFileSystemEntries (System.String path, System.String searchPattern, FileAttributes mask, FileAttributes attrs) [0x00166] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/Directory.cs:528 
+  at System.IO.Directory.GetDirectories (System.String path, System.String searchPattern) [0x00000] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/Directory.cs:275 
+  at System.IO.Directory.GetDirectories (System.String path) [0x00000] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/Directory.cs:270 
+  at MultiplayerScript..ctor () [0x00000] in <filename unknown>:0 
+ 
+(Filename: /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.IO/Directory.cs Line: 528)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 17.909958 ms
+System memory in use before: 24.6 MB.
+System memory in use after: 24.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2084.
+Total: 51.338230 ms (FindLiveObjects: 0.157422 ms CreateObjectMapping: 0.053777 ms MarkObjects: 51.102093 ms  DeleteObjects: 0.015644 ms)
+
