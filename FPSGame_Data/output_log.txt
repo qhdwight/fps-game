@@ -1,0 +1,143 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 780 Ti (ID=0x100a)
+    Vendor:   NVIDIA
+    VRAM:     3038 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.210 seconds
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.205811 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 11264 -> priority: 1 
+  Thread -> id: 11268 -> priority: 1 
+MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Joining asdasdasd | castle
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+MatchMakingClient Join :https://mm.unet.unity3d.com/json/reply/JoinMatchRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Network configuration mismatch detected. The number of networked scripts on the client does not match the number of networked scripts on the server. This could be caused by lazy loading of scripts on the client. This warning can be disabled by the checkbox in NetworkManager Script CRC Check.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CRC Local Dump PlayerSetup : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CRC Local Dump PlayerReload : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CRC Local Dump PlayerUse : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CRC Local Dump PlayerWeaponManager : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CRC Local Dump Player : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CRC Local Dump PlayerTerrainModifier : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CRC Remote Dump PlayerSetup : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CRC Remote Dump PlayerReload : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CRC Remote Dump PlayerUse : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CRC Remote Dump PlayerWeaponManager : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CRC Remote Dump Player : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CRC Remote Dump PlayerTerrainModifier : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CRC Remote Dump RoundTimeScript : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+CRC Remote Dump ScoreBoardMenu : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CRC Remote Dump KillFeedScript : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CRC Remote Dump BlockManager : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CRC Remote Dump NetworkTransmitter : 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+UnloadTime: 2.234167 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2403.
+Total: 1.741881 ms (FindLiveObjects: 0.092897 ms CreateObjectMapping: 0.092202 ms MarkObjects: 1.489368 ms  DeleteObjects: 0.059769 ms)
+
+Map name loaded: castle
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[NetworkTransmitter]: 0 / 529
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[NetworkTransmitter]: 512 / 529
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[NetworkTransmitter]: Completely Received Data at transmissionId = 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[ClientBM] Changed blocks received
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+[ClientBM] Changed blocks set
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
