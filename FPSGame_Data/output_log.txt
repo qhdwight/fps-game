@@ -1,10 +1,11 @@
-Initialize engine version: 5.4.3f1 (01f4c123905a)
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
     Renderer: NVIDIA GeForce GTX 780 Ti (ID=0x100a)
     Vendor:   NVIDIA
     VRAM:     3038 MB
+    Driver:   21.21.13.7609
 Begin MonoManager ReloadAssembly
 Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.dll into Unity Child Domain
@@ -16,81 +17,58 @@ Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngi
 Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.192 seconds
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.207 seconds
 Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
+desktop: 1920x1080 144Hz; virtual: 3840x1080 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.279715 ms
+UnloadTime: 1.452308 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2160 -> priority: 1 
-  Thread -> id: c14 -> priority: 1 
-Network configuration mismatch detected. The number of networked scripts on the client does not match the number of networked scripts on the server. This could be caused by lazy loading of scripts on the client. This warning can be disabled by the checkbox in NetworkManager Script CRC Check.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-CRC Local Dump PlayerSetup : 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-CRC Local Dump PlayerReload : 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-CRC Local Dump PlayerUse : 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-CRC Local Dump PlayerWeaponManager : 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-CRC Local Dump Player : 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
+  Thread -> id: 21dc -> priority: 1 
+  Thread -> id: 7694 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-InvalidOperationException: out of sync
-  at System.Collections.Generic.Dictionary`2+Enumerator[System.String,System.Int32].VerifyState () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.Dictionary`2+Enumerator[System.String,System.Int32].MoveNext () [0x00000] in <filename unknown>:0 
-  at System.Collections.Generic.Dictionary`2+KeyCollection+Enumerator[System.String,System.Int32].MoveNext () [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkCRC.Dump (UnityEngine.Networking.NetworkSystem.CRCMessageEntry[] remoteScripts) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkCRC.ValidateInternal (UnityEngine.Networking.NetworkSystem.CRCMessageEntry[] remoteScripts, Int32 numChannels) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkCRC.Validate (UnityEngine.Networking.NetworkSystem.CRCMessageEntry[] scripts, Int32 numChannels) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkClient.OnCRC (UnityEngine.Networking.NetworkMessage netMsg) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkConnection.HandleReader (UnityEngine.Networking.NetworkReader reader, Int32 receivedSize, Int32 channelId) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkClient.Update () [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkClient.UpdateClients () [0x00000] in <filename unknown>:0 
-  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00000] in <filename unknown>:0 
+UnloadTime: 1.583662 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2535.
+Total: 1.653857 ms (FindLiveObjects: 0.197841 ms CreateObjectMapping: 0.080387 ms MarkObjects: 1.354082 ms  DeleteObjects: 0.021081 ms)
+
+Map name loaded: apartment
  
-(Filename:  Line: -1)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-UnloadTime: 2.072008 ms
+2 models loaded for map apartment
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2432.
-Total: 1.727523 ms (FindLiveObjects: 0.104480 ms CreateObjectMapping: 0.111199 ms MarkObjects: 1.453464 ms  DeleteObjects: 0.057916 ms)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.278889 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2516.
+Total: 6.364998 ms (FindLiveObjects: 0.112820 ms CreateObjectMapping: 0.056757 ms MarkObjects: 6.155804 ms  DeleteObjects: 0.029421 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.439932 ms
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 2548.
+Total: 2.455881 ms (FindLiveObjects: 0.168188 ms CreateObjectMapping: 0.054904 ms MarkObjects: 1.533391 ms  DeleteObjects: 0.699165 ms)
 
 Map name loaded: castle
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-[NetworkTransmitter]: 0 / 292
+4 models loaded for map castle
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-[NetworkTransmitter]: Completely Received Data at transmissionId = 0
+Custom player added
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-[ClientBM] Changed blocks received
+Custom player added
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-[ClientBM] Changed blocks set
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 

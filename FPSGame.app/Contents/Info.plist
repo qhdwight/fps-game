@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>FPSGame</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Unity Player version 5.4.3f1 (01f4c123905a). (c) 2016 Unity Technologies ApS. All rights reserved.</string>
+	<string>Unity Player version 5.5.0f3 (38b4efef76f0). (c) 2016 Unity Technologies ApS. All rights reserved.</string>
 	<key>CFBundleIconFile</key>
 	<string>PlayerIcon.icns</string>
 	<key>CFBundleIdentifier</key>
@@ -19,16 +19,16 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>Unity Player version 5.4.3f1</string>
+	<string>Unity Player version 5.5.0f3</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>5.4.3f1</string>
+	<string>5.5.0f3</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>PlayerApplication</string>
 	<key>UnityBuildNumber</key>
-	<string>01f4c123905a</string>
+	<string>38b4efef76f0</string>
 </dict>
 </plist>
