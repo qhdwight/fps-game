@@ -1,3 +1,11 @@
+Mono path[0] = 'F:/GitHubRepositories/fps-game/FPSGame_Data/Managed'
+Mono path[1] = 'F:/GitHubRepositories/fps-game/FPSGame_Data/Mono'
+Mono config path = 'F:/GitHubRepositories/fps-game/FPSGame_Data/Mono/etc'
+PlayerConnection initialized from F:/GitHubRepositories/fps-game/FPSGame_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55151
+Multi-casting "[IP] 10.0.0.10 [Port] 55151 [Flags] 2 [Guid] 3794852731 [EditorId] 418933702 [Version] 1048832 [Id] WindowsPlayer(Quintin-PC) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55151]
+PlayerConnection already initialized - listening to [0.0.0.0:55151]
 Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -19,56 +27,14 @@ Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngi
 Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.207 seconds
+- Completed reload, in  0.251 seconds
 Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 144Hz; virtual: 3840x1080 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.452308 ms
+UnloadTime: 1.632541 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 21dc -> priority: 1 
-  Thread -> id: 7694 -> priority: 1 
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.583662 ms
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2535.
-Total: 1.653857 ms (FindLiveObjects: 0.197841 ms CreateObjectMapping: 0.080387 ms MarkObjects: 1.354082 ms  DeleteObjects: 0.021081 ms)
-
-Map name loaded: apartment
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-2 models loaded for map apartment
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.278889 ms
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2516.
-Total: 6.364998 ms (FindLiveObjects: 0.112820 ms CreateObjectMapping: 0.056757 ms MarkObjects: 6.155804 ms  DeleteObjects: 0.029421 ms)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.439932 ms
-
-Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 2548.
-Total: 2.455881 ms (FindLiveObjects: 0.168188 ms CreateObjectMapping: 0.054904 ms MarkObjects: 1.533391 ms  DeleteObjects: 0.699165 ms)
-
-Map name loaded: castle
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-4 models loaded for map castle
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Custom player added
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Custom player added
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
+  Thread -> id: 5c74 -> priority: 1 
+  Thread -> id: 5c78 -> priority: 1 
