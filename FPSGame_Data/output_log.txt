@@ -1,0 +1,71 @@
+Mono path[0] = 'F:/GitHubRepositories/fps-game/FPSGame_Data/Managed'
+Mono path[1] = 'F:/GitHubRepositories/fps-game/FPSGame_Data/Mono'
+Mono config path = 'F:/GitHubRepositories/fps-game/FPSGame_Data/Mono/etc'
+PlayerConnection initialized from F:/GitHubRepositories/fps-game/FPSGame_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55374
+Multi-casting "[IP] 10.0.0.10 [Port] 55374 [Flags] 2 [Guid] 106935178 [EditorId] 3433910322 [Version] 1048832 [Id] WindowsPlayer(Quintin-PC) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55374]
+PlayerConnection already initialized - listening to [0.0.0.0:55374]
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 780 Ti (ID=0x100a)
+    Vendor:   NVIDIA
+    VRAM:     3038 MB
+    Driver:   21.21.13.7609
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.029 seconds
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 144Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.259793 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: e08 -> priority: 1 
+  Thread -> id: 7858 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.642966 ms
+System memory in use before: 27.2 MB.
+System memory in use after: 27.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2557.
+Total: 1.615166 ms (FindLiveObjects: 0.165640 ms CreateObjectMapping: 0.055831 ms MarkObjects: 1.374930 ms  DeleteObjects: 0.016448 ms)
+
+Map name loaded: town
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlockManager:CreateChunks(MapInfo) (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Voxel\BlockManager.cs:59)
+BlockManager:LoadMap(MapInfo) (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Voxel\BlockManager.cs:50)
+<StartWorldEdit>c__Iterator0:MoveNext() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\UI\WorldEditScript.cs:237)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: Z:/Unity Projects/FPSGameDev/Assets/FPSGame/Scripts/Voxel/BlockManager.cs Line: 59)
+
+42 models loaded for map town
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ModelManager:LoadModels() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Map\ModelManager.cs:100)
+<StartWorldEdit>c__Iterator0:MoveNext() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\UI\WorldEditScript.cs:238)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: Z:/Unity Projects/FPSGameDev/Assets/FPSGame/Scripts/Map/ModelManager.cs Line: 100)
+
