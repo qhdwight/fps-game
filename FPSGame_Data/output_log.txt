@@ -1,0 +1,40 @@
+Mono path[0] = 'H:/GitHubRepositories/fps-game/FPSGame_Data/Managed'
+Mono path[1] = 'H:/GitHubRepositories/fps-game/FPSGame_Data/Mono'
+Mono config path = 'H:/GitHubRepositories/fps-game/FPSGame_Data/Mono/etc'
+PlayerConnection initialized from H:/GitHubRepositories/fps-game/FPSGame_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55009
+Multi-casting "[IP] 10.0.0.10 [Port] 55009 [Flags] 2 [Guid] 733331678 [EditorId] 2847026334 [Version] 1048832 [Id] WindowsPlayer(Quintin-PC) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55009]
+PlayerConnection already initialized - listening to [0.0.0.0:55009]
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 780 Ti (ID=0x100a)
+    Vendor:   NVIDIA
+    VRAM:     3038 MB
+    Driver:   21.21.13.7633
+Begin MonoManager ReloadAssembly
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.256 seconds
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 144Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.349630 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 9d2c -> priority: 1 
+  Thread -> id: 9d40 -> priority: 1 
