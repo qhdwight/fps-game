@@ -2,10 +2,10 @@ Mono path[0] = 'H:/GitHubRepositories/fps-game/FPSGame_Data/Managed'
 Mono path[1] = 'H:/GitHubRepositories/fps-game/FPSGame_Data/Mono'
 Mono config path = 'H:/GitHubRepositories/fps-game/FPSGame_Data/Mono/etc'
 PlayerConnection initialized from H:/GitHubRepositories/fps-game/FPSGame_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55436
-Multi-casting "[IP] 10.0.0.10 [Port] 55436 [Flags] 2 [Guid] 3343374710 [EditorId] 4115566884 [Version] 1048832 [Id] WindowsPlayer(Quintin-PC) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55436]
-PlayerConnection already initialized - listening to [0.0.0.0:55436]
+PlayerConnection initialized network socket : 0.0.0.0 55320
+Multi-casting "[IP] 10.0.0.10 [Port] 55320 [Flags] 2 [Guid] 2879061424 [EditorId] 785521338 [Version] 1048832 [Id] WindowsPlayer(Quintin-PC) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55320]
+PlayerConnection already initialized - listening to [0.0.0.0:55320]
 Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -27,60 +27,236 @@ Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngi
 Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.243 seconds
+- Completed reload, in  0.227 seconds
 Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 144Hz; virtual: 3840x1080 at -1920,0
+desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.476802 ms
+UnloadTime: 1.824105 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: e554 -> priority: 1 
-  Thread -> id: d464 -> priority: 1 
-Settings updated!
+  Thread -> id: dc40 -> priority: 1 
+  Thread -> id: eb84 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.938658 ms
+System memory in use before: 31.1 MB.
+System memory in use after: 31.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2387.
+Total: 1.663198 ms (FindLiveObjects: 0.171343 ms CreateObjectMapping: 0.062858 ms MarkObjects: 1.414434 ms  DeleteObjects: 0.012134 ms)
+
+Map name loaded: castle
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-SettingsScript:SettingsUpdated() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\UI\SettingsScript.cs:157)
-SettingsScript:OnApplySettingsClicked() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\UI\SettingsScript.cs:211)
-UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
-UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:634)
-UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:769)
-UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
-UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
-UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
-UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:531)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:430)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:410)
-UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:184)
-UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
+BlockManager:CreateChunks(MapInfo) (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Voxel\BlockManager.cs:62)
+BlockManager:LoadMap(MapInfo) (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Voxel\BlockManager.cs:53)
+<JoinGame>c__Iterator0:MoveNext() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\UI\MultiplayerScript.cs:358)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
  
-(Filename: Z:/Unity Projects/FPSGameDev/Assets/FPSGame/Scripts/UI/SettingsScript.cs Line: 157)
+(Filename: Z:/Unity Projects/FPSGameDev/Assets/FPSGame/Scripts/Voxel/BlockManager.cs Line: 62)
 
-Settings updated!
+[ClientBM] Changed blocks set
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-SettingsScript:SettingsUpdated() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\UI\SettingsScript.cs:157)
-SettingsScript:OnApplySettingsClicked() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\UI\SettingsScript.cs:211)
-UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
-UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:634)
-UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:769)
-UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
-UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
-UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
-UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:531)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:430)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:410)
-UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:184)
-UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
+BlockManager:SetChangedBlocks() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Voxel\BlockManager.cs:189)
+<JoinGame>c__Iterator0:MoveNext() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\UI\MultiplayerScript.cs:359)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
  
-(Filename: Z:/Unity Projects/FPSGameDev/Assets/FPSGame/Scripts/UI/SettingsScript.cs Line: 157)
+(Filename: Z:/Unity Projects/FPSGameDev/Assets/FPSGame/Scripts/Voxel/BlockManager.cs Line: 189)
 
+4 models loaded for map castle
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ModelManager:LoadModels() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Map\ModelManager.cs:100)
+<JoinGame>c__Iterator0:MoveNext() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\UI\MultiplayerScript.cs:360)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: Z:/Unity Projects/FPSGameDev/Assets/FPSGame/Scripts/Map/ModelManager.cs Line: 100)
+
+Mono path[0] = 'H:/GitHubRepositories/fps-game/FPSGame_Data/Managed'
+Mono path[1] = 'H:/GitHubRepositories/fps-game/FPSGame_Data/Mono'
+Mono config path = 'H:/GitHubRepositories/fps-game/FPSGame_Data/Mono/etc'
+PlayerConnection initialized from H:/GitHubRepositories/fps-game/FPSGame_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55353
+Multi-casting "[IP] 10.0.0.10 [Port] 55353 [Flags] 2 [Guid] 516421395 [EditorId] 785521338 [Version] 1048832 [Id] WindowsPlayer(Quintin-PC) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55353]
+PlayerConnection already initialized - listening to [0.0.0.0:55353]
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 780 Ti (ID=0x100a)
+    Vendor:   NVIDIA
+    VRAM:     3038 MB
+    Driver:   21.21.13.7633
+Begin MonoManager ReloadAssembly
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.031 seconds
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.407881 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: e3f0 -> priority: 1 
+  Thread -> id: ea7c -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.979916 ms
+System memory in use before: 30.2 MB.
+System memory in use after: 30.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2387.
+Total: 1.779935 ms (FindLiveObjects: 0.193428 ms CreateObjectMapping: 0.063101 ms MarkObjects: 1.508115 ms  DeleteObjects: 0.012377 ms)
+
+Herro
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerClassManager:SetCurrentClass() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Player\PlayerClassManager.cs:17)
+Player:SetFirstSetupDefaults() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Player\Player.cs:309)
+PlayerSetup:Start() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Player\PlayerSetup.cs:48)
+ 
+(Filename: Z:/Unity Projects/FPSGameDev/Assets/FPSGame/Scripts/Player/PlayerClassManager.cs Line: 17)
+
+Assault
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PlayerClassManager:SetCurrentClass() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Player\PlayerClassManager.cs:18)
+Player:SetFirstSetupDefaults() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Player\Player.cs:309)
+PlayerSetup:Start() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Player\PlayerSetup.cs:48)
+ 
+(Filename: Z:/Unity Projects/FPSGameDev/Assets/FPSGame/Scripts/Player/PlayerClassManager.cs Line: 18)
+
+Map name loaded: castle
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlockManager:CreateChunks(MapInfo) (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Voxel\BlockManager.cs:62)
+BlockManager:LoadMap(MapInfo) (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Voxel\BlockManager.cs:53)
+<JoinGame>c__Iterator0:MoveNext() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\UI\MultiplayerScript.cs:358)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: Z:/Unity Projects/FPSGameDev/Assets/FPSGame/Scripts/Voxel/BlockManager.cs Line: 62)
+
+[ClientBM] Changed blocks set
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlockManager:SetChangedBlocks() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Voxel\BlockManager.cs:189)
+<JoinGame>c__Iterator0:MoveNext() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\UI\MultiplayerScript.cs:359)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: Z:/Unity Projects/FPSGameDev/Assets/FPSGame/Scripts/Voxel/BlockManager.cs Line: 189)
+
+4 models loaded for map castle
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ModelManager:LoadModels() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Map\ModelManager.cs:100)
+<JoinGame>c__Iterator0:MoveNext() (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\UI\MultiplayerScript.cs:360)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: Z:/Unity Projects/FPSGameDev/Assets/FPSGame/Scripts/Map/ModelManager.cs Line: 100)
+
+OP_ADD
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BlockManager:SetChangedBlock(Operation, Int32) (at Z:\Unity Projects\FPSGameDev\Assets\FPSGame\Scripts\Voxel\BlockManager.cs:161)
+UnityEngine.Networking.SyncList`1:HandleMsg(NetwOrkRe_ADD
+dner) ngatne.DebuigLdslaan\unity\buerna\E_Log(sions\Net woriki, g\Reunti
+Uni\SyEnngisne.Ds:376)L
+BloHakManager:gFnvokmatynLogType, ngejeBctcks(Netw,orbjBct[a)v
+initr,Engitwe.LoReade:Log
+(niotyEneg, e.Netwtr)
+Un.NtyetngornkIdebntitog(Object)
+clickt(Inager:SetworkneaedBr) (at C:\tion,dslav32\u i(y\t Z:ldUnityenPsojons\NeFworGkingDev\Assee\s\FtSGwor\SIdentis\y.cxel\70)
+UMaityger.ics.Ne61wor
+kiig.ClientScNetw:OrkSing.SytMessagist`tworkMeseMsg(Ne(tw orkReildslaveaunity\buildslaxtensiitny\betild\king\Rsions\Netwoenkincg\R.cstim5e
+UnyncLEnsgt.e.Netw6rki
+nlo.cktMarnConne:InionkeHSyncListchanNetwolkRes(Nertworkt32,aInt32r, Net CorkRuildsl)
+UnitniEny\inue.dNetwenrikns\g.NetwrkinIdeRutittymeHNetwoeSynncLcistn.cs:468)
+UnityEnginer) e(aorki:\g.NetdoskConeectionyH\buleBy\Eex(Beyte[ns, Nettw2, king3\Runat C:\buildrkIaventinitycs:il7\Ext
+ensions\Networtwinrkinuntilie\NetwceneonnectioLists:424)
+UnityEnginesNsagorkingt NC:\buiConsleatie\unity\sporld\Ectievioes\Netwo],kiInt3Run Iime\)lieat C:\builds775)unity\builde.Networkonsg.NetwoorkCo\Runctton:H\andloeReadeectionwork:575der
+UnityE32gi Int3etw (aki n:\builworkaveieunitU\budate()xteat ionsbuietworakie\unity\bue\ld\Ewxtensionstion.cs:46n8\Ru
+Utnme\NenginrkCNeienotking:735)
+Unitonnegition:HandleBny.NetworkClientnUtdateClnent2)( (aat C:\buildsslave\unity\builld\ExtennsiionsNetwtworining\untime\NetwororkCoent.ctio950)s
+Unit
+UnngiyeEngtwne.ing.Noetinor.kItweoritConneceitStTraicUpprtRec() v(atyC:e\b, Intslave\unity\buit d\Exbuisiosla\Ne\tuoniinygbRuntd\Ex\NetwookIdentiwoy.kin:1\R7u)
+ im
+eFiletwomek Zon/Uecity Pronject:5FPSGa
+UmeDeE/Asine.NFetGamoe/ingr.pts/VokClie/BlockManag) (.cs L\ine:dslave
+
+unity\build\Extensions\Networking\Runtime\NetworkClient.cs:735)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:950)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1073)
+ 
+(Filename: Z:/Unity Projects/FPSGameDev/Assets/FPSGame/Scripts/Voxel/BlockManager.cs Line: 161)
+
+OP_PDD
+UnDD
+UnngineEDebugLogHanugeLoIgterdlal_LIg(ternayp_Log(LogTg,p Object)
+UnityEngin
+e.DebugLogHandler:LogFormat(LogTyrme, ObjeTcte, triject, Stect[g])
+UnityE]ng
+ine.Loggene.Logger:Lyog(LObjece,)
+Unityt)
+UinityEbug:Log(Object)
+BlbckMa)
+BerocSetCnager:Selockangperatiok(Openr32) (at Z:\UnityatPro:\Uctsty PSGaeceDev\PAssetDe\F\PSGaets\FPSGame\Scripts\VVooel\Blockckanagaer..cs:161)
+UnityEngine.Neteotkinrking.Syinc`i1:H1:ndandleMsg(Networkadeader(at(aC:\bu\budsldsve\e\ninity\build\Exensiosio\Netwtwokikig\g\RntiimeSySyncisist.c::376)
+BlockMan
+Ber:ockMkeSnager:InvokegyndLilotchas(geetworkkes(Netuwo Networkioaur, Ne
+tworkEngine.Ne
+twitykEngine.NetwIdentitNetaordledeyntity:Handt32,y cetwotrkRte2, Network Ceaderi (dt lavebunitdy\bvuiunityxteunld\oEs\teetworns\Ne\Runtime\RuntwimekNedentiktdy.csty570s:5
+70ity
+EnginEngiene.Netwo.CklientSceneScOnne:ncLSstncLssagtMessaworNetwssrkMe) sage)  :(but C:\buil\uslave\build\Extild\Eontsnsietwo\Nking\Runti\Re\ClientScene.cs:775)s:
+7nityE
+ngine.NetnwoNetworkitworkeoworectionectinn:HaReadeea(Ner(NekReadeReadInt32, Int, 2) (at) (at Cildsuave\slavty\buity\\Extensd\Exstentwionsing\Runtime\NetworkCoNetectrkCn.nection)
+UnityEng
+ine.Networking.Noeting.kCotworkCione:tion:HandleB(Byte(B], Int32,ntI3232) nt3at ) :(at C:d\bluildslitve\build\ExteldsExons\Nions\NeingorRuing\Rmu\netime\kConwoectionnecction.cs
+:4it4)
+UnineyEnegiorking.NetworkConnwortiConneration:Traecnevpo(tRecieve(Int32, I ntt2)  (na32)C:(abu C:\buildslaity\builty\buildsiExtensions\Networking\Runtime\Neontectikoonnection.
+Unit7yEn
+gnityENetworkieg.NetworkClient:Update(t:) (ate C:\builCd\lave\slave\unity\bEilte\nxsions\NsetwtwrkikingRuntite\NetworkClient.cs.c73:7)
+Uni
+tnitEngngne.Netwowokikig.NetwororClCliet:t:pUpdaCleClits() (at C:\buibdslave\une\tunbuild\Extensxonensions\Nkinwg\RingtimentitweoNekClorkCt.cnt.:950)
+Un
+ititEnginine.Newoorking.NNetworrkIdentityy:UNetStaticUpdate() (atC:\buildsldslaven\ty\itui\build\EnsionsioetworkinorkRng\RuntimetworwoIdentity.cs:c1073)
+ 
+ 
+
+(ileleane:me: Z:/Unity Pjrcts/FtsSGFPSeGev/eDssv/AsFPSGs/FPSGameptscrVoxts/Voxec/Blonager.cser.cs : ine: 
+
+61)
+
+UnloadTime: 2.630100 ms
+UnloadTime: 1.879925 ms
