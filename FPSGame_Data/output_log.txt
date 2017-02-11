@@ -21,14 +21,9 @@ Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngi
 Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
 Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.203 seconds
+- Completed reload, in  0.245 seconds
 Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 1.345747 ms
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 13a84 -> priority: 1 
-  Thread -> id: 13a88 -> priority: 1 
