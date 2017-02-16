@@ -1,0 +1,43 @@
+{
+    "chunkAmountX": 8,
+    "chunkAmountZ": 6,
+    "spawns": [
+        {
+            "pos": {
+                "x": 4,
+                "y": 41,
+                "z": 36
+            },
+            "team": 1
+        },
+        {
+            "pos": {
+                "x": 59,
+                "y": 39,
+                "z": 11
+            },
+            "team": 2
+        }
+    ],
+    "flags": [
+        {
+            "pos": {
+                "x": 3,
+                "y": 34,
+                "z": 19
+            },
+            "team": 1,
+            "id": 0
+        },
+        {
+            "pos": {
+                "x": 60,
+                "y": 32,
+                "z": 27
+            },
+            "team": 2,
+            "id": 1
+        }
+    ],
+    "mapName": "castle"
+}

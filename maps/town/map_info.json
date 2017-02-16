@@ -1,0 +1,18 @@
+{
+    "chunkAmountX": 17,
+    "chunkAmountZ": 17,
+    "spawns": [
+        {
+            "pos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "team": 0
+        }
+    ],
+    "flags": [
+        
+    ],
+    "mapName": "town"
+}
