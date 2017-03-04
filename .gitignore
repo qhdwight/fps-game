@@ -1,2 +1,13 @@
+# Setting changes
 settings/
+
+# Maps folder, only update official maps
+!maps/
+maps/*
+!maps/castle
+!maps/apartment
+!maps/locker
+!maps/town
+
+# Unity meta crap
 *.meta
