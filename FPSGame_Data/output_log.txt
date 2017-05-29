@@ -1,0 +1,138 @@
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 780 Ti (ID=0x100a)
+    Vendor:   NVIDIA
+    VRAM:     3039 MB
+    Driver:   21.21.13.7892
+Begin MonoManager ReloadAssembly
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\DatabaseControl.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\DatabaseControl.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\DOTween.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\DOTween43.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\DOTween46.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\DOTween50.dll (this message is harmless)
+Loading H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\DOTween50.dll into Unity Child Domain
+- Completed reload, in  0.040 seconds
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: H:\GitHubRepositories\fps-game\FPSGame_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.269298 ms
+Random seed: -390680349
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1380 -> priority: 1 
+  Thread -> id: 1c78 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.648389 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3761.
+Total: 2.375263 ms (FindLiveObjects: 0.209931 ms CreateObjectMapping: 0.069653 ms MarkObjects: 2.083785 ms  DeleteObjects: 0.011406 ms)
+
+Map name loaded: castle
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4 models loaded for map castle
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Map checksum: 7569408
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player added
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.529711 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3533.
+Total: 5.030840 ms (FindLiveObjects: 0.182264 ms CreateObjectMapping: 0.068925 ms MarkObjects: 4.668738 ms  DeleteObjects: 0.110426 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.576402 ms
+
+Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 3782.
+Total: 2.815270 ms (FindLiveObjects: 0.207262 ms CreateObjectMapping: 0.070139 ms MarkObjects: 2.306580 ms  DeleteObjects: 0.230318 ms)
+
+Map name loaded: castle
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+4 models loaded for map castle
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+First Block Pos: 31, 33, 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Second Block Pos: 46, 34, 16
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Filling 544 blocks.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.099897 ms
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3558.
+Total: 5.483953 ms (FindLiveObjects: 0.204107 ms CreateObjectMapping: 0.072566 ms MarkObjects: 5.053653 ms  DeleteObjects: 0.152898 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.549220 ms
+
+Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 3806.
+Total: 3.040249 ms (FindLiveObjects: 0.175226 ms CreateObjectMapping: 0.079118 ms MarkObjects: 2.570633 ms  DeleteObjects: 0.214785 ms)
+
+Map name loaded: town
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+56 models loaded for map town
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Map checksum: 45574144
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player added
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.380117 ms
+
+Unloading 150 unused Assets to reduce memory usage. Loaded Objects now: 4063.
+Total: 21.190739 ms (FindLiveObjects: 0.201194 ms CreateObjectMapping: 0.082516 ms MarkObjects: 20.249805 ms  DeleteObjects: 0.656734 ms)
+

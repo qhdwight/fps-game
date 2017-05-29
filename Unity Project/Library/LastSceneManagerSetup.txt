@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/FPSGame/StartingScene.unity
+  isLoaded: 1
+  isActive: 1
